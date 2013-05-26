@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Catull2;font-style:  normal;font-weight: 400;src: url("../Catull2.ttf");
+}
+/** Google +1 button BEGIN **/
+button.gplusbtn {
+	text-decoration: none;text-shadow: 0 1px 0 #fff;font: 11px Helvetica, Arial, sans-serif;color: #444;line-height: 17px;display: inline-block;float: left; margin: 0px; padding: 0px 6px; border-radius: 3px; height: 24px; width:39px; cursor: pointer; border: 1px solid brown; box-shadow:inset 0px 1px 2px #F78377; background: #D64937; background: linear-gradient(#DC4A38, #D14836); transition: border .20s;
+}
+button.gplusbtn span.label {
+	display: inline-block; float: left;  transition: color .20s; line-height: 15px; color: #FFF ; text-shadow: -1px 1px 0 #000 ;  font: 27px 'Catull2'; margin-left: -9px;margin-top: -7px; 
+}
+button.gplusbtn span  {
+	line-height: 23px; color: #FFF ; text-shadow: -1px 1px 0 #000 ;  font-size: 13px  ; margin-left: 5px; 
+}
+button.gplusbtn:hover {
+	border: 1px solid #B0281A !important; background: #D14130; background: linear-gradient(#DC4A38, #C53727); box-shadow:inset 0px 5px 25px #FF8C56; 
+}
+button.gplusbtn:active {
+	box-shadow:inset -1px 1px 2px brown  ; border-color: #B0281A !important; 
+}
+/** Google +1 count **/
+.gcount {
+	position: relative; display: inline-block; padding: 0 7px 0; margin-left: 8px; font-size: 11px; line-height: 20px; color: #666; vertical-align: middle; background-color: #fafafa; border: 1px solid #ccc; border-radius: 3px; 
+}
+.gcount:before{
+	content:"";display:block;width:0;height:0;border:5px solid #ccc;border-color:transparent #ccc transparent transparent;position:absolute;right:100%;margin-right:0;top:50%;margin-top:-5px
+}
+.gcount:after{
+	content:"";display:block;width:0;height:0;border:5px solid #fafafa;border-color:transparent #fafafa transparent transparent;position:absolute;right:100%;margin-right:-1px;top:50%;margin-top:-5px
+}
