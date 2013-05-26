@@ -1,4 +1,5 @@
 CSS3
 ====
 
-CSS3 painting
+纯CSS画的Google+按钮
+http://xiaohudie.net/code/css-gplus-button.html
